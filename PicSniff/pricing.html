@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Bootstrap CSS -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+   <!-- Custom CSS -->
+   <link href="css/style.css" rel="stylesheet" type="text/css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;0,600;0,700;0,800;1,300;1,400&display=swap"
+      rel="stylesheet">
+   <title>PicSniff</title> 
+</head>
+
+<body>
+   <header>
+      <nav class="navbar navbar-expand-lg navbar-light ">
+         <div class="container">
+            <a class="navbar-brand" href="#">PicSniff</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+               aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li><a href="index.html" class="active">Home</a></li>
+                  <li><a href="#">FAQs</a></li>
+                  <li><a href="pricing.html">Pricing</a></li>
+                  <li><a href="about.html">About us</a></li>
+                  <li><a href="#">Login</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav> 
+   </header>
+   <section class="py-5 position-relative   bg-light">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12 text-center zindex-2 my-5">
+               <span class="d-block text-primary text-uppercase">Pricing</span>
+               <h1 class="mb-2 mt-4">
+                  Find a pricing plan that’s right for you
+               </h1>
+               <p class="text-color fs-6 pt-1">
+                  Start free. Upgrade when you absolutely love it!
+               </p>
+               <div class="text-center d-flex align-items-center justify-content-center mt-5 pt-4">
+                  <label class="custom-toggler  " id="filt-monthly">Monthly Plans</label>
+                  <div class="custom-toggle mx-3">
+                     <input type="checkbox" id="switcher" class="custom-check">
+                     <b class="  custom-switch"></b>
+                  </div>
+                  <label class="custom-toggler" id="filt-hourly">Annual Plans</label>
+                  <div class="save-offer">
+                     <svg width="109" height="34" viewBox="0 0 109 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                           d="M8.60156 23.175C5.64264 26.2977 3.4559 29.731 2.04239 33.476C1.91766 33.8065 1.5578 33.9866 1.22107 33.8799C0.871412 33.7692 0.680355 33.3924 0.806188 33.0479C2.20797 29.21 4.39138 25.7009 7.35677 22.5204C10.4826 19.1668 14.0201 16.6705 17.9684 15.032C14.9771 14.5367 12.4887 13.4015 10.5063 11.6236C10.176 11.3163 10.1669 10.9991 10.4723 10.6704C10.7781 10.3433 11.0951 10.3337 11.4238 10.6397C12.6554 11.7494 13.9491 12.5204 15.3058 12.9516C16.6619 13.3836 18.4357 13.7349 20.6284 14.0099L20.8317 14.0472C21.1828 14.0441 21.4151 14.211 21.5269 14.5466C21.57 14.6961 21.565 14.8178 21.5129 14.913C21.5702 15.1699 21.5115 15.3862 21.3391 15.5637C20.8874 16.1097 20.4211 16.7404 19.9368 17.4543C19.4553 18.1706 19.0644 18.763 18.7674 19.2328C18.4703 19.7026 18.0475 20.4207 17.5008 21.3862C16.9538 22.353 16.5601 23.005 16.3219 23.346C16.0719 23.7538 15.7597 23.8359 15.3841 23.5893C15.009 23.3437 14.9395 23.0496 15.1787 22.7091C17.4343 18.8565 18.8142 16.6116 19.3183 15.9691C15.2873 17.4876 11.7152 19.8892 8.60156 23.175Z"
+                           fill="#93E06F" />
+                        <rect x="28.2314" width="80" height="23" rx="4" fill="#93E06F" />
+                        <path
+                           d="M42.9634 15.12C42.3154 15.12 41.6874 15.028 41.0794 14.844C40.4794 14.66 40.0034 14.416 39.6514 14.112L40.1914 12.9C40.5354 13.172 40.9554 13.396 41.4514 13.572C41.9554 13.74 42.4594 13.824 42.9634 13.824C43.5874 13.824 44.0514 13.724 44.3554 13.524C44.6674 13.324 44.8234 13.06 44.8234 12.732C44.8234 12.492 44.7354 12.296 44.5594 12.144C44.3914 11.984 44.1754 11.86 43.9114 11.772C43.6474 11.684 43.2874 11.584 42.8314 11.472C42.1914 11.32 41.6714 11.168 41.2714 11.016C40.8794 10.864 40.5394 10.628 40.2514 10.308C39.9714 9.98 39.8314 9.54 39.8314 8.988C39.8314 8.524 39.9554 8.104 40.2034 7.728C40.4594 7.344 40.8394 7.04 41.3434 6.816C41.8554 6.592 42.4794 6.48 43.2154 6.48C43.7274 6.48 44.2314 6.544 44.7274 6.672C45.2234 6.8 45.6514 6.984 46.0114 7.224L45.5194 8.436C45.1514 8.22 44.7674 8.056 44.3674 7.944C43.9674 7.832 43.5794 7.776 43.2034 7.776C42.5874 7.776 42.1274 7.88 41.8234 8.088C41.5274 8.296 41.3794 8.572 41.3794 8.916C41.3794 9.156 41.4634 9.352 41.6314 9.504C41.8074 9.656 42.0274 9.776 42.2914 9.864C42.5554 9.952 42.9154 10.052 43.3714 10.164C43.9954 10.308 44.5074 10.46 44.9074 10.62C45.3074 10.772 45.6474 11.008 45.9274 11.328C46.2154 11.648 46.3594 12.08 46.3594 12.624C46.3594 13.088 46.2314 13.508 45.9754 13.884C45.7274 14.26 45.3474 14.56 44.8354 14.784C44.3234 15.008 43.6994 15.12 42.9634 15.12ZM53.3543 13.056H49.1543L48.3263 15H46.7183L50.4983 6.6H52.0343L55.8263 15H54.1943L53.3543 13.056ZM52.8383 11.832L51.2543 8.16L49.6823 11.832H52.8383ZM64.1293 6.6L60.4693 15H58.9333L55.2613 6.6H56.9533L59.7493 13.08L62.5693 6.6H64.1293ZM71.3157 13.692V15H65.0157V6.6H71.1477V7.908H66.5757V10.092H70.6317V11.376H66.5757V13.692H71.3157ZM81.8552 13.68V15H75.6632V13.956L78.9992 10.788C79.3752 10.428 79.6272 10.116 79.7552 9.852C79.8912 9.58 79.9592 9.312 79.9592 9.048C79.9592 8.656 79.8272 8.356 79.5632 8.148C79.2992 7.94 78.9112 7.836 78.3992 7.836C77.5432 7.836 76.8872 8.128 76.4312 8.712L75.3392 7.872C75.6672 7.432 76.1072 7.092 76.6592 6.852C77.2192 6.604 77.8432 6.48 78.5312 6.48C79.4432 6.48 80.1712 6.696 80.7152 7.128C81.2592 7.56 81.5312 8.148 81.5312 8.892C81.5312 9.348 81.4352 9.776 81.2432 10.176C81.0512 10.576 80.6832 11.032 80.1392 11.544L77.8952 13.68H81.8552ZM86.2244 15.12C85.5524 15.12 84.9524 14.952 84.4244 14.616C83.8964 14.272 83.4804 13.776 83.1764 13.128C82.8724 12.472 82.7204 11.696 82.7204 10.8C82.7204 9.904 82.8724 9.132 83.1764 8.484C83.4804 7.828 83.8964 7.332 84.4244 6.996C84.9524 6.652 85.5524 6.48 86.2244 6.48C86.8964 6.48 87.4964 6.652 88.0244 6.996C88.5604 7.332 88.9804 7.828 89.2844 8.484C89.5884 9.132 89.7404 9.904 89.7404 10.8C89.7404 11.696 89.5884 12.472 89.2844 13.128C88.9804 13.776 88.5604 14.272 88.0244 14.616C87.4964 14.952 86.8964 15.12 86.2244 15.12ZM86.2244 13.764C86.8244 13.764 87.2964 13.516 87.6404 13.02C87.9924 12.524 88.1684 11.784 88.1684 10.8C88.1684 9.816 87.9924 9.076 87.6404 8.58C87.2964 8.084 86.8244 7.836 86.2244 7.836C85.6324 7.836 85.1604 8.084 84.8084 8.58C84.4644 9.076 84.2924 9.816 84.2924 10.8C84.2924 11.784 84.4644 12.524 84.8084 13.02C85.1604 13.516 85.6324 13.764 86.2244 13.764ZM92.6666 11.124C92.0666 11.124 91.5826 10.912 91.2146 10.488C90.8466 10.064 90.6626 9.508 90.6626 8.82C90.6626 8.132 90.8466 7.576 91.2146 7.152C91.5826 6.728 92.0666 6.516 92.6666 6.516C93.2666 6.516 93.7506 6.728 94.1186 7.152C94.4946 7.568 94.6826 8.124 94.6826 8.82C94.6826 9.516 94.4946 10.076 94.1186 10.5C93.7506 10.916 93.2666 11.124 92.6666 11.124ZM97.7066 6.6H98.8826L93.1466 15H91.9706L97.7066 6.6ZM92.6666 10.284C92.9946 10.284 93.2466 10.156 93.4226 9.9C93.6066 9.644 93.6986 9.284 93.6986 8.82C93.6986 8.356 93.6066 7.996 93.4226 7.74C93.2466 7.484 92.9946 7.356 92.6666 7.356C92.3546 7.356 92.1026 7.488 91.9106 7.752C91.7266 8.008 91.6346 8.364 91.6346 8.82C91.6346 9.276 91.7266 9.636 91.9106 9.9C92.1026 10.156 92.3546 10.284 92.6666 10.284ZM98.1746 15.084C97.5746 15.084 97.0906 14.872 96.7226 14.448C96.3546 14.024 96.1706 13.468 96.1706 12.78C96.1706 12.092 96.3546 11.536 96.7226 11.112C97.0906 10.688 97.5746 10.476 98.1746 10.476C98.7746 10.476 99.2586 10.688 99.6266 11.112C100.003 11.536 100.191 12.092 100.191 12.78C100.191 13.468 100.003 14.024 99.6266 14.448C99.2586 14.872 98.7746 15.084 98.1746 15.084ZM98.1746 14.244C98.4946 14.244 98.7466 14.116 98.9306 13.86C99.1146 13.596 99.2066 13.236 99.2066 12.78C99.2066 12.324 99.1146 11.968 98.9306 11.712C98.7466 11.448 98.4946 11.316 98.1746 11.316C97.8546 11.316 97.6026 11.444 97.4186 11.7C97.2346 11.956 97.1426 12.316 97.1426 12.78C97.1426 13.244 97.2346 13.604 97.4186 13.86C97.6026 14.116 97.8546 14.244 98.1746 14.244Z"
+                           fill="white" />
+                     </svg>
+
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="pricing py-5 mb-md-5">
+      <div class="container">
+         <div class="row no-gutters g-4">
+            <!-- Free Tier -->
+            <div class="col-md-4 p-md-0">
+               <div class="border">
+                  <div class="card-body border-bottom p-lg-4 p-3">
+                     <h5 class="card-title fs-4 fw-bold mb-4">Free forever</h5>
+                     <h6 class="card-price  text-brown mb-1">Free</h6>
+                     <p class="text-color">Billed Never</p>
+                     <h6 class="card-price  mb-1">10 GB</h6>
+                     <p class="text-color">9,000+ photos</p>
+                     <button class="btn btn-outline-primary btn-sm mb-3 my-4 py-2 w-100">Get started</button>
+
+                  </div>
+                  <div class="card-body p-lg-4 p-3">
+                     <ul class="list-unstyled">
+                        <li class="py-2">
+                           <img src="./images/check-enable.svg" class="me-1"> Unlimited Galleries
+                        </li>
+                        <li class="py-2">
+                           <img src="./images/check-enable.svg" class="me-1"> Video Integration
+                        </li>
+                        <li class="py-2">
+                           <img src="./images/check-enable.svg" class="me-1"> Face recognition: 200 searches
+                        </li>
+                        <li class="py-2">
+                           <img src="./images/check-enable.svg" class="me-1"> Pre registration: 20 guests
+                        </li>
+                        <li class="py-2 disabled">
+                           <img src="./images/check-enable.svg" class="me-1"> Custom Domain
+                        </li>
+                        <li class="py-2 disabled">
+                           <img src="./images/check-enable.svg" class="me-1"> Custom Branding
+                        </li>
+                        <li class="py-2 disabled">
+                           <img src="./images/check-enable.svg" class="me-1"> High-resolution downloads
+                        </li>
+                        <li class="py-2 disabled">
+                           <img src="./images/check-enable.svg" class="me-1"> Watermarking
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <!-- Plus Tier -->
+            <div class="col-md-4 p-md-0">
+               <div class="border border-md-0">
+                  <div class="card-body border-bottom p-lg-4 p-3">
+                     <h5 class="card-title fs-4 fw-bold mb-4">Professional</h5>
+                     <h6 class="card-price  text-brown mb-1">$12 <small class="fs-12"><del>$14</del></small></h6>
+                     <p class="text-color">Billed Monthly</p>
+                     <h6 class="card-price  mb-1">250 GB</h6>
+                     <p class="text-color">225,000+ photos</p>
+                     <button class="btn btn-outline-primary btn-sm mb-3 my-4 py-2 w-100">Register now</button>
+
+                  </div>
+                  <div class="card-body p-lg-4 p-3">
+                     <ul class="list-unstyled">
+                        <li class="py-2">
+                           <img src="./images/check-enable.svg" class="me-1"> Unlimited Galleries
+                        </li>
+                        <li class="py-2">
+                           <img src="./images/check-enable.svg" class="me-1"> Video Integration
+                        </li>
+                        <li class="py-2">
+                           <img src="./images/check-enable.svg" class="me-1"> Face recognition: 200 searches
+                        </li>
+                        <li class="py-2">
+                           <img src="./images/check-enable.svg" class="me-1"> Pre registration: 20 guests
+                        </li>
+                        <li class="py-2">
+                           <img src="./images/check-enable.svg" class="me-1"> Custom Domain
+                        </li>
+                        <li class="py-2">
+                           <img src="./images/check-enable.svg" class="me-1"> Custom Branding
+                        </li>
+                        <li class="py-2">
+                           <img src="./images/check-enable.svg" class="me-1"> High-resolution downloads
+                        </li>
+                        <li class="py-2">
+                           <img src="./images/check-enable.svg" class="me-1"> Watermarking
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <!-- Pro Tier -->
+            <div class="col-md-4 p-md-0">
+               <div class="border">
+                  <div class="card-body border-bottom p-lg-4 p-3">
+                     <h5 class="card-title fs-4 fw-bold mb-4">Advanced</h5>
+                     <h6 class="card-price  text-brown mb-1">$36 <small class="fs-12"><del>$44</del></small></h6>
+                     <p class="text-color">Billed Monthly</p>
+                     <h6 class="card-price  mb-1">750 GB</h6>
+                     <p class="text-color">675,000+ photos</p>
+                     <button class="btn btn-outline-primary btn-sm mb-3 my-4 py-2 w-100">Register now</button>
+
+                  </div>
+                  <div class="card-body p-lg-4 p-3">
+                     <ul class="list-unstyled">
+                        <li class="py-2">
+                           <img src="./images/check-enable.svg" class="me-1"> Unlimited Galleries
+                        </li>
+                        <li class="py-2">
+                           <img src="./images/check-enable.svg" class="me-1"> Video Integration
+                        </li>
+                        <li class="py-2">
+                           <img src="./images/check-enable.svg" class="me-1"> Face recognition: 200 searches
+                        </li>
+                        <li class="py-2">
+                           <img src="./images/check-enable.svg" class="me-1"> Pre registration: 20 guests
+                        </li>
+                        <li class="py-2">
+                           <img src="./images/check-enable.svg" class="me-1"> Custom Domain
+                        </li>
+                        <li class="py-2">
+                           <img src="./images/check-enable.svg" class="me-1"> Custom Branding
+                        </li>
+                        <li class="py-2">
+                           <img src="./images/check-enable.svg" class="me-1"> High-resolution downloads
+                        </li>
+                        <li class="py-2">
+                           <img src="./images/check-enable.svg" class="me-1"> Watermarking
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="faq-section bg-light py-5">
+      <div class="container">
+         <div class="row g-lg-5 g-4">
+            <div class="col-md-12 text-center">
+               <h2 class="mb-4">
+                  Frequently Asked Questions
+               </h2>
+
+            </div>
+            <div class="col-md-6">
+               <div class="question">
+                  <h6 class="fs-16 mb-3 fw-medium">
+                     How does the free account work?
+                  </h6>
+                  <p>
+
+
+                     The Picsniff free account allows you to host more than 9000+ photos with additional features like
+                     Unlimited
+                     Galleries,
+                     Video Integration, Liveness detection, Face recognition for upto 200 search and Pre-registeration
+                     for
+                     upto 20 guests
+                  </p>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div class="question">
+                  <h6 class="fs-16 mb-3 fw-medium">
+                     Can I switch plans?
+                  </h6>
+                  <p>
+
+
+                     Yes, you can switch plans. You can get in touch with us for the same.
+                  </p>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div class="question">
+                  <h6 class="fs-16 mb-3 fw-medium">
+                     Can I use my own domain?
+                  </h6>
+                  <p>
+
+
+
+                     Yes, with the professional plan you can use a custom domain to share with your clients. We also
+                     provide picsniff.com
+                     domain to all the accounts on signup
+                  </p>
+               </div>
+            </div>
+
+            <div class="col-md-6">
+               <div class="question">
+                  <h6 class="fs-16 mb-3 fw-medium">
+                     Do you offer discounts for yearly plan?
+                  </h6>
+                  <p>
+
+
+
+                     Yes, you can save 16% if you take the yearly plan.
+                  </p>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div class="question">
+                  <h6 class="fs-16 mb-3 fw-medium">
+                     How do I cancel my subscription?
+                  </h6>
+                  <p>
+
+
+                     You can cancel your subscription at anytime from your account dashboard
+                  </p>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div class="question">
+                  <h6 class="fs-16 mb-3 fw-medium">
+                     What type of payments do you support?
+                  </h6>
+                  <p>
+
+
+                     We currently accept Visa, MasterCard credit and debit cards, as well as American Express credit
+                     cards.
+                     All payments are
+                     billed in USD.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <footer class="py-5 bg-dark text-white">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="logo mb-4">
+                  PicSniff
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-3">
+               <div class="address">
+                  <a href="mailto:hello@picsniff.com">hello@picsniff.com</a><br>
+                  Chat on: <a href="tel: +91 81109 99958"> +91 81109 99958</a>
+                  <br> <br>
+                  88, Bajaj Bhawan,<br>
+                  Nariman Point, Mumbai<br> 400021
+               </div>
+            </div>
+            <div class="col-md-9">
+               <div class="row">
+                  <div class="col-md-3 mt-5 mt-lg-0 mt-md-0">
+                     <ul>
+                        <li> <a href="">Features</a></li>
+                        <li> <a href=""> Pricing</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-3">
+                     <ul>
+                        <li> <a href="">Examples</a>
+                        </li>
+                        <li> <a href=""> About us</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-3">
+                     <ul>
+                        <li> <a href="">Contact us</a>
+                        </li>
+                        <li> <a href=""> Privacy Policy</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-3">
+                     <ul>
+                        <li> <a href="">Terms and condition</a>
+                        </li>
+                        <li> <a href=""> Refund Policy</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-12 mt-5">
+                     <p>Picsniff is an AI powered image and video sharing online platform, with features that range from
+                        privacy protection, built in data analysis, personalized domain name, one click social sharing
+                        and alot more under one roof.
+                        <br><br> © 2021 Picsniff Inc.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script>
+      $(document).ready(function () {
+
+
+         $(function () {
+            var nav_offset_top = $('header').outerHeight();
+            function navbarFixed() {
+               $(window).scroll(function () {
+                  var scroll = $(window).scrollTop();
+                  if (scroll >= nav_offset_top) {
+                     $("header").addClass("navbar_fixed");
+
+                  } else {
+                     $("header").removeClass("navbar_fixed");
+                  }
+               });
+            };
+            navbarFixed();
+         });
+         $('.team-carousel').owlCarousel({
+            loop: false,
+            margin: 40,
+            nav: true,
+            responsive: {
+               0: {
+                  items: 2
+               },
+               600: {
+                  items: 2
+               },
+               1000: {
+                  items: 3,
+                  margin: 80,
+               }
+            }
+         })
+
+
+      });
+
+
+   </script>
+</body>
+
+</html>
